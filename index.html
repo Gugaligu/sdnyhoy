@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>С днем рождения Алия!</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -13,8 +13,8 @@
 
 
     <button id="demo" class="btn" onclick="removeButton(event)" style="opacity: 1;">
-        <img style="display: block;" class="myImage" aria-disabled="true" src="/scale_1200.jpg" height="200px">
-        <img style="display: none;" class="p" src="/pozdr.jpg"height="400px">
+        <img style="display: block;" class="myImage" aria-disabled="true" src="./scale_1200.jpg" height="200px">
+        <img style="display: none;" class="p" src="./pozdr.jpg"height="400px">
     </button>
     
 
@@ -29,11 +29,11 @@
 
 
 </body>
-<script src="/confetti.min.js"></script>
+<script src="./confetti.min.js"></script>
 
 <script>
     setTimeout(() => { document.getElementById("demo").addEventListener("click",
-    function(){var music = new Audio('/Voicy_Confetti Gun (mp3cut.net) (2).mp3');
+    function(){var music = new Audio('./Voicy_Confetti Gun (mp3cut.net) (2).mp3');
     music.play();document.querySelector(".myImage").style.display="none";document.querySelector(".p").style.display="block"})
     
     let confetti = new Confetti("demo");
